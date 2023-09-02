@@ -1,38 +1,166 @@
-.App {
+#img1 {
+  width: 100px;
+  height: 100px;
+}
+.App{
+ background-color: rgba(245,245,9,.263);
+ width: 100vw;
+ height: 100vh;
+}
+#img2 {
+  width: 100px;
+  height: 100px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  background-color:#096bdb;
+}
+
+.heading {
+  font-size: 24px;
+  text-align: center;
+  font-family: serif;
+  color:whitesmoke;
+  font:bold;
+}
+
+#chat_head {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.chatbot {
+  padding-top: 20px;
+  
+  margin: 0 auto;
+  min-width: 50vw;
+  max-width: 50vw;
+  min-height: 50vh;
+  max-height: 100vh;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+/* CSS styles for small screens */
+@media screen and (max-width: 600px) {
+  .chatbot {
+    min-width: 50vw;
+    max-width: 50vw;
+    min-height: 50vh;
+    max-height: 100vh;
+  }
+
+  /* Other styles for small screens */
+  #img1 {
+    width: 50px;
+    height: 50px;
+  }
+
+  #img2 {
+    width: 100px;
+    height: 50px;
+  }
+
+  .heading {
+    font-size: 18px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* CSS styles for medium screens */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .chatbot {
+    min-width: 50vw;
+    max-width: 50vw;
+    min-height: 50vh;
+    max-height: 100vh;
   }
-  to {
-    transform: rotate(360deg);
+
+  /* Other styles for medium screens */
+  #img1 {
+    width: 80px;
+    height: 80px;
+  }
+
+  #img2 {
+    width: 120px;
+    height: 80px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+}
+
+/* CSS styles for large screens */
+@media screen and (min-width: 1025px) {
+  .chatbot {
+    min-width: 50vw;
+    max-width: 50vw;
+    min-height: 50vh;
+    max-height: 100vh;
+  }
+
+  /* Other styles for large screens */
+  #img1 {
+    width: 120px;
+    height: 120px;
+  }
+
+  #img2 {
+    width: 170px;
+    height: 120px;
+  }
+
+  .heading {
+    font-size: 26px;
+  }
+}
+
+/* Additional media queries for different screen sizes */
+@media screen and (max-width: 400px) {
+  .chatbot {
+    min-width: 50vw;
+    max-width: 50vw;
+    min-height: 50vh;
+    max-height: 100vh;
+  }
+
+  /* Other styles for smaller screens */
+  #img1 {
+    width: 40px;
+    height: 40px;
+  }
+
+  #img2 {
+    width: 90px;
+    height: 40px;
+  }
+
+  .heading {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1300px) {
+  .chatbot {
+    min-width: 50vw;
+    max-width: 50vw;
+    min-height: 50vh;
+    max-height: 100vh;
+  }
+
+  /* Other styles for screens between 1025px and 1300px */
+  #img1 {
+    width: 150px;
+    height: 150px;
+  }
+
+  #img2 {
+    width: 200px;
+    height: 150px;
+  }
+
+  .heading {
+    font-size: 28px;
   }
 }
