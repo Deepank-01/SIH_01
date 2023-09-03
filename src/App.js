@@ -4,7 +4,7 @@ import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
 import logo from './dnk2.png';
 import g20 from './g20.jpg';
-const API_KEY = "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";
+const API_KEY = "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";
 // "Explain things like you would to a 10 year old learning how to code."
 const systemMessage = { 
   "role": "system", 
